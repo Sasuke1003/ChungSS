@@ -28,6 +28,7 @@ a:active {text-decoration: none;}
 .navbar{position:absolute;left:0;top:0;width:10%;height:100%;background-color:#000;animation-name:navbarshadow;animation-duration:16s;animation-delay:0s;}
 .blur{backdrop-filter: blur(2px);}
 .logo{position:absolute;top:10%;width:100%;}
+.navbar .logo:hover{content:url("https://sasuke1003.github.io/ChungSS/src/images/logo/csSgold.png");width:100%;}
 /*NAVBAR*/
 
 /*MAIN*/
