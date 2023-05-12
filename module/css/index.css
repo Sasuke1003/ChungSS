@@ -17,7 +17,6 @@ a:active {text-decoration: none;}
 .background{position:absolute;left:0px;top:0px;width:100%;height:100%;}
 .blur{position:absolute;left:0px;top:0px;width:100%;height:100%;}
 .top{position:absolute;width:100%;height:50px;top:0;left:0;background-color:#111;z-index:10;}
-.left{position:absolute;width:10px;height:100%;top:0;left:0;background-color:#000;z-index:10;}
 .right{position:absolute;width:10px;height:100%;top:0;right:0;background-color:#000;z-index:10;}
 .bottom{user-select: none;border-top: 5px solid rgb(0,0,0);position: absolute;left: 0;bottom: 0px;width: 100%;background-color: #111;color: white;text-align: center;font-size:15px;z-index: 13;font-family: helvetica;}
 .bottom .footerimg{margin-top:10px;width:150px;}
@@ -25,7 +24,7 @@ a:active {text-decoration: none;}
 
 /*NAVBAR*/
 @keyframes navbarshadow {0%{box-shadow: 0 0 100px rgba(0,0,0) ;}6.25%{box-shadow: 0 0 100px rgba(0,4,255) ;}12.5%{box-shadow: 0 0 100px rgba(177,120,0);}18.75%{box-shadow: 0 0 100px rgba(16,112,117);}25%{box-shadow: 0 0 100px rgba(255,196,0);}31.25%{box-shadow: 0 0 100px rgba(85,85,85);}37.5%{box-shadow: 0 0 100px rgba(12,138,0);}43.75%{box-shadow: 0 0 100px rgba(58,193,206);}50%{box-shadow: 0 0 100px rgba(173,173,173);}56.25%{box-shadow: 0 0 100px rgba(62,193,58);}62.5%{box-shadow: 0 0 100px rgba(206,58,146);}68.75%{box-shadow: 0 0 100px rgba(255,120,0);}75%{box-shadow: 0 0 100px rgba(240,156,234);}81.25%{box-shadow: 0 0 100px rgba(147,9,135);}87.5%{box-shadow: 0 0 100px rgba(223,22,47);}93.75%{box-shadow: 0 0 100px rgba(255,255,255);}100%{box-shadow: 0 0 100px rgba(255,250,0);}}
-.navbar{position:absolute;left:0;top:0;width:10%;height:100%;background-color:#000;animation-name:navbarshadow;animation-duration:16s;animation-delay:0s;}
+.navbar{position:absolute;left:0;top:0;width:10%;height:100%;background-color:#000;animation-name:navbarshadow;animation-duration:16s;animation-delay:0s;animation-iteration-count: infinite;}
 .blur{backdrop-filter: blur(2px);}
 .logo{position:absolute;top:10%;width:100%;}
 .navbar .logo:hover{content:url("https://sasuke1003.github.io/ChungSS/src/images/logo/csSgold.png");width:100%;}
@@ -33,4 +32,46 @@ a:active {text-decoration: none;}
 
 /*MAIN*/
 .main{position:absolute;right:0;top:0;width:90%;height:100%;}
+.menu{position:absolute;left:0;top:30%;width:100%;}
+.menu button{width:100%;height:100px;font-size:30px;border:none;outline:none;background-color:transparent;color:#fff;padding:0;margin:0;}
+.menu a{cursor:pointer;}
+.submenu{overflow:hidden;}
+.submenu:hover .submenubtn{border-left:4px solid #69e07d;}
+.submenu-content{display:none;position:fixed;left:10%;background-color:rgba(20,20,20,0.8);width:auto;height:100px;z-index:1;border-right:5px solid #000;}
+#first{top:30%}#second{top:calc(30% + 100px)}#third{top:calc(30% + 200px)}#fourth{top:calc(30% + 300px)}#fivth{top:calc(30% + 400px)}
+.submenu-content a{float:left;color:rgba(255,255,255,0.7);text-decoration: none;height:100px;padding-right:10px;padding-left:10px;}
+.submenu-content a:hover{background-color:rgba(0,0,0,0.5);}
+.submenu-content a p{font-size:20px;line-height:50px;}
+.submenu:hover .submenu-content{display:block;}
 /*MAIN*/
+
+/*color*/
+#chungsstudio{color:rgb(236, 151, 23);}
+#socialmedia{color:rgb(211, 13, 13);}
+#google{color:rgb(62, 59, 212);}
+#games{color:rgb(15, 168, 23);}
+#music{color:rgb(149, 18, 175);}
+#chunginfo:hover{color:rgb(3, 133, 150);}
+#waffle:hover{color:rgb(12, 179, 101);}
+#cssbrowser:hover{color:rgb(240, 194, 43);}
+#whatsapp:hover{color:rgb(0,230,118);}
+#instagram:hover{color:rgb(219,46,125);}
+#facebook:hover{color:rgb(58,85,159);}
+#youtube:hover{color:rgb(198,26,30);}
+#discord:hover{color:rgb(88,101,202);}
+#ggbrowser:hover{color:rgb(255, 255, 255);}
+#ggdrive:hover{color:rgb(11, 128, 60);}
+#gggmail:hover{color:rgb(202, 32, 32);}
+#ggmap:hover{color:rgb(100, 97, 255);}
+#ggphoto:hover{color:rgb(35, 255, 101);}
+#ggtranslate:hover{color:rgb(20, 148, 207);}
+#lol:hover{color:rgb(166, 172, 255);}
+#rainbow6:hover{color:rgb(173, 173, 173);}
+#overwatch:hover{color:rgb(18, 162, 206);}
+#gta5:hover{color:rgb(255, 144, 218);}
+#minecraft:hover{color:rgb(14, 141, 42);}
+#spotify:hover{color:rgb(0, 255, 64);}
+#moov:hover{color:rgb(211, 255, 50);}
+#applemusic:hover{color:rgb(255, 62, 62);}
+#joox:hover{color:rgb(255, 61, 223);}
+/*color*/
